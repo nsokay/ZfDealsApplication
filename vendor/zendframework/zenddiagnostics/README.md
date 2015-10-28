@@ -11,14 +11,19 @@ It currently ships with the following Diagnostic Checks:
  * [ApcMemory](#apcmemory) - check available APC memory,
  * [Callback](#callback) - call a user-defined diagnostic function,
  * [ClassExists](#classexists) - make sure class exists in current environment,
+ * [CouchDBCheck](#couchdbcheck) - check if connection is possible,
  * [CpuPerformance](#cpuperformance) - check server CPU performance is above baseline,
  * [DirReadable](#dirreadable) - make sure given path is readable,
  * [DirWritable](#dirwritable) - make sure given path is writable,
  * [DiskFree](#diskfree) - check there's enough free space on given path,
+ * [DiskUsage](#diskusage) - check if the disk usage is below warning/critical percent thresholds,
+ * [DoctrineMigration](#doctrinemigration) - make sure all migrations are applied.
  * [ExtensionLoaded](#extensionloaded) - make sure extension is loaded,
- * [HttpService](#httpservice) - check if given http host is responding,
  * [GuzzleHttpService](#guzzlehttpservice) - check if given http host is responding using Guzzle,
+ * [HttpService](#httpservice) - check if given http host is responding,
  * [Memcache](#memcache) - check if memcache extension is loaded and given server is reachable,
+ * [OpCacheMemory](#opcachememory) - check if the OpCache memory usage is below warning/critical thresholds,
+ * [PDOCheck](#pdocheck) - check if connection is possible,
  * [PhpVersion](#phpversion) - make sure that PHP version matches constraint,
  * [PhpFlag](#phpflag) - make sure that given PHP flag (feature) is turned on or off.
  * [ProcessRunning](#processrunning) - check if a process with given name or ID is currently running,
@@ -576,6 +581,21 @@ $checkCompression = new StreamWrapperExists(array(
     'bzip2',
     'zip'
 ));
+````
+
+### DoctrineMigration
+
+Make sure all migrations are applied:
+
+````php
+<?php
+use Doctrine\DBAL\Migrations\Configuration\Configuration;
+use Doctrine\ORM\EntityManager;
+use ZendDiagnostics\Check\DoctrineMigration;
+
+$em = EntityManager::create(/** config */); 
+$migrationConfig = new Configuration($em);
+$check = new DoctrineMigration($migrationConfig);
 ````
 
 ### IniFile

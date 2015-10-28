@@ -103,7 +103,7 @@ class Runner
     {
         $results = new ResultsCollection();
 
-        $checks = $checkAlias ? new ArrayObject(array($this->getCheck($checkAlias))) : $this->getChecks();
+        $checks = $checkAlias ? new ArrayObject(array($checkAlias => $this->getCheck($checkAlias))) : $this->getChecks();
 
         // Trigger START event
         $this->triggerReporters('onStart', $checks, $this->getConfig());
@@ -143,7 +143,6 @@ class Runner
                         $result
                     );
                 }
-
             } elseif (is_bool($result)) {
                 // Interpret boolean as a failure or success
                 $result = $result ? new Success() : new Failure();
@@ -395,7 +394,9 @@ class Runner
 
     public function errorHandler($errno, $errstr = '', $errfile = '', $errline = 0)
     {
-        throw new ErrorException($errstr, 0, $errno, $errfile, $errline);
+        if (error_reporting() !== 0) {
+            throw new ErrorException($errstr, 0, $errno, $errfile, $errline);
+        }
     }
 
     protected function stopErrorHandler()
