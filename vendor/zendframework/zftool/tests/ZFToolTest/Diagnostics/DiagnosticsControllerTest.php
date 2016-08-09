@@ -2,18 +2,20 @@
 namespace ZFToolTest\Diagnostics\Check;
 
 use Zend\Console\Request as ConsoleRequest;
+use Zend\Http;
 use Zend\Mvc\MvcEvent;
 use Zend\Mvc\Router\RouteMatch;
 use Zend\ServiceManager\ServiceManager;
 use Zend\Stdlib\ArrayObject;
 use Zend\Stdlib\ArrayUtils;
+use ZendDiagnostics\Check\Callback;
 use ZendDiagnostics\Result\Collection;
 use ZendDiagnostics\Result\Failure;
 use ZendDiagnostics\Result\Success;
 use ZendDiagnostics\Result\Warning;
-use ZendDiagnostics\Check\Callback;
 use ZFTool\Controller\DiagnosticsController;
 use ZFTool\Diagnostics\Exception\RuntimeException;
+use ZFToolTest\Diagnostics\TestAsset\AlwaysFailCheck;
 use ZFToolTest\Diagnostics\TestAsset\AlwaysSuccessCheck;
 use ZFToolTest\Diagnostics\TestAsset\ReturnThisCheck;
 use ZFToolTest\Diagnostics\TestAssets\ConsoleAdapter;
@@ -24,6 +26,7 @@ require_once __DIR__.'/TestAsset/ConsoleAdapter.php';
 require_once __DIR__.'/TestAsset/InjectableModuleManager.php';
 require_once __DIR__.'/TestAsset/ReturnThisCheck.php';
 require_once __DIR__.'/TestAsset/AlwaysSuccessCheck.php';
+require_once __DIR__.'/TestAsset/AlwaysFailCheck.php';
 require_once __DIR__.'/TestAsset/DummyModule.php';
 
 class DiagnosticsControllerTest extends \PHPUnit_Framework_TestCase
@@ -64,7 +67,7 @@ class DiagnosticsControllerTest extends \PHPUnit_Framework_TestCase
         $this->sm = new ServiceManager();
         $this->sm->setService('console', new ConsoleAdapter());
         $this->sm->setService('config', $this->config);
-        $this->sm->setAlias('configuration','config');
+        $this->sm->setAlias('configuration', 'config');
 
         $this->mm = new InjectableModuleManager();
         $this->sm->setService('modulemanager', $this->mm);
@@ -217,8 +220,8 @@ class DiagnosticsControllerTest extends \PHPUnit_Framework_TestCase
     public function testConfigBasedStaticMethodWithParams()
     {
         static::$staticTestMethodCalled = false;
-        $expectedData = mt_rand(1,PHP_INT_MAX);
-        $expectedMessage = mt_rand(1,PHP_INT_MAX);
+        $expectedData = mt_rand(1, PHP_INT_MAX);
+        $expectedMessage = mt_rand(1, PHP_INT_MAX);
         $this->config['diagnostics']['group']['foo'] = array(
             array(__CLASS__, 'staticTestMethod'),
             $expectedMessage,
@@ -277,8 +280,8 @@ class DiagnosticsControllerTest extends \PHPUnit_Framework_TestCase
      */
     public function testConfigBasedFunctionWithParams()
     {
-        $expectedData = mt_rand(1,PHP_INT_MAX);
-        $expectedMessage = mt_rand(1,PHP_INT_MAX);
+        $expectedData = mt_rand(1, PHP_INT_MAX);
+        $expectedMessage = mt_rand(1, PHP_INT_MAX);
         $this->config['diagnostics']['group']['foo'] = array(
             __NAMESPACE__ . '\testOutlineFunction',
             $expectedMessage,
@@ -340,8 +343,8 @@ class DiagnosticsControllerTest extends \PHPUnit_Framework_TestCase
      */
     public function testConfigBasedServiceName()
     {
-        $expectedData = mt_rand(1,PHP_INT_MAX);
-        $expectedMessage = mt_rand(1,PHP_INT_MAX);
+        $expectedData = mt_rand(1, PHP_INT_MAX);
+        $expectedMessage = mt_rand(1, PHP_INT_MAX);
         $check = new Callback(function () use ($expectedMessage, $expectedData) {
             return new Success($expectedMessage, $expectedData);
         });
@@ -391,7 +394,7 @@ class DiagnosticsControllerTest extends \PHPUnit_Framework_TestCase
     public function testModuleProvidedDefinitions()
     {
         $module = new DummyModule($this->sm);
-        $this->mm->injectModule('dummymodule',$module);
+        $this->mm->injectModule('dummymodule', $module);
         $result = $this->controller->dispatch(new ConsoleRequest());
 
         $this->assertInstanceOf('Zend\View\Model\ViewModel', $result);
@@ -482,7 +485,7 @@ class DiagnosticsControllerTest extends \PHPUnit_Framework_TestCase
         $this->assertInstanceOf('ZendDiagnostics\Result\Failure', $results[$check]);
         $this->assertSame($someObj, $results[$check]->getData());
 
-        $someResource = fopen('php://memory','r');
+        $someResource = fopen('php://memory', 'r');
         fclose($someResource);
         $check = new ReturnThisCheck($someResource);
         $this->config['diagnostics']['group']['foo'] = $check;
@@ -693,9 +696,47 @@ class DiagnosticsControllerTest extends \PHPUnit_Framework_TestCase
     {
         $this->config['diagnostics']['group']['test1'] = $check1 = new AlwaysSuccessCheck();
 
-        ob_start();
-        $result = $this->controller->dispatch(new \Zend\Http\Request());
-        $this->assertEquals('', ob_get_clean());
+        $result = $this->controller->dispatch(new Http\Request());
+
+        $this->assertInstanceOf('Zend\View\Model\ViewModel', $result);
+        $this->assertInstanceOf('ZendDiagnostics\Result\Collection', $result->getVariable('results'));
+    }
+
+    public function testJsonMode()
+    {
+        $this->config['diagnostics']['group']['test1'] = $check1 = new AlwaysSuccessCheck();
+
+        $request = new Http\Request();
+        $request->getHeaders()->addHeader(Http\Header\Accept::fromString('Accept: application/json'));
+        $result = $this->controller->dispatch($request);
+
+        $this->assertInstanceOf('Zend\View\Model\JsonModel', $result);
+        $this->assertTrue($result->getVariable('passed'));
+        $this->assertSame(1, $result->getVariable('success'));
+        $this->assertSame(0, $result->getVariable('failure'));
+    }
+
+    public function testJsonModeFail()
+    {
+        $this->config['diagnostics']['group']['test1'] = $check1 = new AlwaysFailCheck();
+
+        $request = new Http\Request();
+        $request->getHeaders()->addHeader(Http\Header\Accept::fromString('Accept: application/json'));
+        $result = $this->controller->dispatch($request);
+
+        $this->assertInstanceOf('Zend\View\Model\JsonModel', $result);
+        $this->assertFalse($result->getVariable('passed'));
+        $this->assertSame(0, $result->getVariable('success'));
+        $this->assertSame(1, $result->getVariable('failure'));
+    }
+
+    public function testUnknownAccept()
+    {
+        $this->config['diagnostics']['group']['test1'] = $check1 = new AlwaysSuccessCheck();
+
+        $request = new Http\Request();
+        $request->getHeaders()->addHeader(Http\Header\Accept::fromString('Accept: application/baz'));
+        $result = $this->controller->dispatch($request);
 
         $this->assertInstanceOf('Zend\View\Model\ViewModel', $result);
         $this->assertInstanceOf('ZendDiagnostics\Result\Collection', $result->getVariable('results'));
@@ -727,7 +768,6 @@ class DiagnosticsControllerTest extends \PHPUnit_Framework_TestCase
 
         return new Success($message, $data);
     }
-
 }
 
 function testOutlineFunction($message = 'bar', $data = null)
