@@ -1,0 +1,7 @@
+<phpunit bootstrap="./bootstrap.php">
+    <testsuites>
+        <testsuite name ="AllTests">
+            <directory>./ZfDealsTest/FormTest</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
