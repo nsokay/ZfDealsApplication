@@ -1,0 +1,11 @@
+<?php if ($this->success) { ?>
+    <div class="alert alert-success">Товар добавлен в корзину!</div>
+    <li><a href="<?php echo $this->url('zf-deals\admin\product\add') ?>">Вернуться к добавлению товара</a></li>
+<?php } ?>
+
+<?php if ($this->insertError) { ?>
+    <div class="alert alert-error">Товар не может быть добавлен.</div>
+    <li><a href="<?php echo $this->url('zf-deals\admin\product\add') ?>">Вернуться к добавлению товара</a></li>
+<?php } ?>
+
+

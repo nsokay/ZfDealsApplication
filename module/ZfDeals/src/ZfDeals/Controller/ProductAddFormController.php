@@ -1,48 +1,60 @@
 <?php
+
 namespace ZfDeals\Controller;
+
 
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\Stdlib\Hydrator\Reflection;
+use ZfDeals\Entity\Product as ProductEntity;
+use ZfDeals\Form\ProductAdd as ProductAddForm;
 use Zend\View\Model\ViewModel;
 
-
-class ProductAddFormController extends AbstractActionController
+class ProductAddFormController extends AbstractFormController
 {
-    public function addProductAction()
+    private $productMapper;
+
+    public function __construct(ProductAddForm $form)
     {
-        $form = new \ZfDeals\Form\ProductAdd();
+        parent::__construct($form);
+    }
 
-        if ($this->getRequest()->isPost()) {
-            $form->setHydrator(new \Zend\Stdlib\Hydrator\Reflection());
-            $form->bind(new \ZfDeals\Entity\Product());
-            $form->setData($this->getRequest()->getPost());
+    public function prepare()
+    {
+        $this->form->setHydrator(new Reflection());
+        $this->form->bind(new ProductEntity());
+    }
 
-            if ($form->isValid()) {
-                $newEntity = $form->getData();
+    public function process()
+    {
+        $model = new ViewModel(
+            array(
+                'form' => $this->form
+            )
+        );
 
-                $mapper = $this->getServiceLocator()->get('ZfDeals\Mapper\Product');
-                $mapper->insert($newEntity);
-                $form = new \ZfDeals\Form\ProductAdd();
-
-                return new ViewModel(
-                    array(
-                        'form' => $form,
-                        'success' => true
-                    )
-                );
-            } else {
-                return new ViewModel(
-                    array(
-                        'form' => $form
-                    )
-                );
-            }
-        } else {
-            return new ViewModel(
-                array(
-                    'form' => $form
-                )
-            );
+        try {
+            $this->productMapper->insert($this->form->getData());
+            $model->setVariable('success', true);
+        } catch (\Exception $e) {
+            $model->setVariable('insertError', true);
         }
+
+        return $model;
+    }
+
+    /**
+     * @param mixed $productMapper
+     */
+    public function setProductMapper($productMapper)
+    {
+        $this->productMapper = $productMapper;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getProductMapper()
+    {
+        return $this->productMapper;
     }
 }

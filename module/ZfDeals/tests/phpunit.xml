@@ -2,6 +2,7 @@
     <testsuites>
         <testsuite name ="AllTests">
             <directory>./ZfDealsTest/FormTest</directory>
+            <directory>./ZfDealsTest/ControllerTest</directory>
         </testsuite>
     </testsuites>
 </phpunit>

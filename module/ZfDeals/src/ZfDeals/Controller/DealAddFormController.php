@@ -22,10 +22,10 @@ class DealAddFormController extends AbstractFormController
         $fieldElements = array();
 
         foreach ($products as $product) {
-            $fieldElements[$product['id']] = $product['name'];
+            $fieldElements[$product['productId']] = $product['name'];
         }
 
-        $this->form->get('deal')->get('product')->get('id')->setValueOptions($fieldElements);
+        $this->form->get('deal')->get('product')->get('productId')->setValueOptions($fieldElements);
     }
 
     public function process()
@@ -51,35 +51,24 @@ class DealAddFormController extends AbstractFormController
         return $model;
     }
 
-    /**
-     * @return mixed
-     */
     public function getProductMapper()
     {
         return $this->productMapper;
     }
 
-    /**
-     * @param mixed $productMapper
-     */
     public function setProductMapper($productMapper)
     {
         $this->productMapper = $productMapper;
     }
 
-    /**
-     * @param mixed $dealMapper
-     */
     public function setDealMapper($dealMapper)
     {
         $this->dealMapper = $dealMapper;
     }
 
-    /**
-     * @return mixed
-     */
     public function getDealMapper()
     {
         return $this->dealMapper;
     }
+
 }

@@ -3,7 +3,7 @@ namespace ZfDeals\Entity;
 
 class Deal
 {
-    protected $id;
+    protected $dealId;
     protected $price;
     protected $startDate;
     protected $endDate;
@@ -22,19 +22,19 @@ class Deal
     }
 
     /**
-     * @param mixed $id
+     * @param mixed $dealId
      */
-    public function setId($id)
+    public function setDealId($dealId)
     {
-        $this->id = $id;
+        $this->dealId = $dealId;
     }
 
     /**
      * @return mixed
      */
-    public function getId()
+    public function getDealId()
     {
-        return $this->id;
+        return $this->dealId;
     }
 
     /**
