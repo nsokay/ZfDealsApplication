@@ -2,86 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3b5ed5b-6977-433d-92c3-10838df70d8a" name="Default" comment=" - git ignore">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/autoload/module.DluTwBootstrap.global.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/ZfDeals/Module.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/ProductAdd.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/ProductFieldset.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/ZfDeals/view/layout/admin.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/ZfDeals/view/layout/site.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/admin/index.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/product-add-form/show.phtml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/sebastian/diff/phpunit.xml.dist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/sebastian/environment/phpunit.xml.dist" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.config.php" afterPath="$PROJECT_DIR$/config/application.config.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/ar_JO.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/ar_JO.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/ar_SY.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/ar_SY.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/cs_CZ.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/cs_CZ.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/de_DE.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/de_DE.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/en_US.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/en_US.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/es_ES.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/es_ES.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/fr_CA.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/fr_CA.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/fr_FR.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/fr_FR.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/it_IT.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/it_IT.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/ja_JP.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/ja_JP.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/nb_NO.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/nb_NO.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/nl_NL.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/nl_NL.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/pl_PL.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/pl_PL.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/pt_BR.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/pt_BR.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/ru_RU.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/ru_RU.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/sl_SI.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/sl_SI.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/tr_TR.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/tr_TR.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/uk_UA.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/uk_UA.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/zh_CN.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/zh_CN.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/zh_TW.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Application/language/zh_TW.po" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/DluTwBootstrap_old" afterPath="$PROJECT_DIR$/vendor/DluTwBootstrap_old" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZfDeals/Module.php" afterPath="$PROJECT_DIR$/module/ZfDeals/Module.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZfDeals/config/controllers.config.php" afterPath="$PROJECT_DIR$/module/ZfDeals/config/controllers.config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZfDeals/config/module.config.php" afterPath="$PROJECT_DIR$/module/ZfDeals/config/module.config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/AdminController.php" afterPath="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/AdminController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZfDeals/config/services.config.php" afterPath="$PROJECT_DIR$/module/ZfDeals/config/services.config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/DealAddFormController.php" afterPath="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/DealAddFormController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/ProductAddFormController.php" afterPath="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/ProductAddFormController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Entity/Deal.php" afterPath="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Entity/Deal.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/DealFieldset.php" afterPath="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/DealFieldset.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/ProductFieldset.php" afterPath="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/ProductFieldset.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/ProductSelectorFieldset.php" afterPath="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/ProductSelectorFieldset.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Mapper/Deal.php" afterPath="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Mapper/Deal.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZfDeals/tests/phpunit.xml" afterPath="$PROJECT_DIR$/module/ZfDeals/tests/phpunit.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/web.config" afterPath="$PROJECT_DIR$/public/web.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/.travis.yml" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/README.md" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/Tests/TimerTest.php" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/Tests/TimerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/composer.json" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/src/Timer.php" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/src/Timer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/.travis.yml" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/README.md" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/src/Token.php" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/src/Token.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/src/Token/Stream.php" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/src/Token/Stream.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/tests/Token/ClassTest.php" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/tests/Token/ClassTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/README.md" afterPath="$PROJECT_DIR$/vendor/sebastian/comparator/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/composer.json" afterPath="$PROJECT_DIR$/vendor/sebastian/comparator/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/src/ArrayComparator.php" afterPath="$PROJECT_DIR$/vendor/sebastian/comparator/src/ArrayComparator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/src/Comparator.php" afterPath="$PROJECT_DIR$/vendor/sebastian/comparator/src/Comparator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/src/DOMNodeComparator.php" afterPath="$PROJECT_DIR$/vendor/sebastian/comparator/src/DOMNodeComparator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/src/DateTimeComparator.php" afterPath="$PROJECT_DIR$/vendor/sebastian/comparator/src/DateTimeComparator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/src/DoubleComparator.php" afterPath="$PROJECT_DIR$/vendor/sebastian/comparator/src/DoubleComparator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/src/NumericComparator.php" afterPath="$PROJECT_DIR$/vendor/sebastian/comparator/src/NumericComparator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/src/ObjectComparator.php" afterPath="$PROJECT_DIR$/vendor/sebastian/comparator/src/ObjectComparator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/src/ResourceComparator.php" afterPath="$PROJECT_DIR$/vendor/sebastian/comparator/src/ResourceComparator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/src/ScalarComparator.php" afterPath="$PROJECT_DIR$/vendor/sebastian/comparator/src/ScalarComparator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/src/SplObjectStorageComparator.php" afterPath="$PROJECT_DIR$/vendor/sebastian/comparator/src/SplObjectStorageComparator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/comparator/src/TypeComparator.php" afterPath="$PROJECT_DIR$/vendor/sebastian/comparator/src/TypeComparator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/diff/.php_cs" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/.php_cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/diff/.travis.yml" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/diff/LICENSE" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/diff/README.md" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/diff/build.xml" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/diff/composer.json" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/diff/src/Chunk.php" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/src/Chunk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/diff/src/Diff.php" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/src/Diff.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/diff/src/Differ.php" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/src/Differ.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/diff/src/LCS/LongestCommonSubsequence.php" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/src/LCS/LongestCommonSubsequence.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/diff/src/LCS/MemoryEfficientLongestCommonSubsequenceImplementation.php" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/src/LCS/MemoryEfficientLongestCommonSubsequenceImplementation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/diff/src/LCS/TimeEfficientLongestCommonSubsequenceImplementation.php" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/src/LCS/TimeEfficientLongestCommonSubsequenceImplementation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/diff/src/Line.php" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/src/Line.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/diff/src/Parser.php" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/src/Parser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/diff/tests/DifferTest.php" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/tests/DifferTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/diff/tests/LCS/TimeEfficientImplementationTest.php" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/tests/LCS/TimeEfficientImplementationTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/diff/tests/ParserTest.php" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/tests/ParserTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/environment/composer.json" afterPath="$PROJECT_DIR$/vendor/sebastian/environment/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/environment/src/Runtime.php" afterPath="$PROJECT_DIR$/vendor/sebastian/environment/src/Runtime.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/recursion-context/README.md" afterPath="$PROJECT_DIR$/vendor/sebastian/recursion-context/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/recursion-context/src/Context.php" afterPath="$PROJECT_DIR$/vendor/sebastian/recursion-context/src/Context.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sebastian/recursion-context/tests/ContextTest.php" afterPath="$PROJECT_DIR$/vendor/sebastian/recursion-context/tests/ContextTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Escaper.php" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Escaper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Exception/ParseException.php" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Exception/ParseException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Inline.php" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Inline.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Parser.php" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Parser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/DumperTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/DumperTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/sfMergeKey.yml" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/sfMergeKey.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/InlineTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/InlineTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/ParseExceptionTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/ParseExceptionTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/ParserTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/ParserTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/YamlTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/YamlTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/phpunit.xml.dist" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/phpunit.xml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZfDeals/view/layout/admin.phtml" afterPath="$PROJECT_DIR$/module/ZfDeals/view/layout/admin.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZfDeals/view/layout/site.phtml" afterPath="$PROJECT_DIR$/module/ZfDeals/view/layout/site.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/deal-add-form/error.phtml" afterPath="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/deal-add-form/error.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/deal-add-form/process.phtml" afterPath="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/deal-add-form/process.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/deal-add-form/show.phtml" afterPath="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/deal-add-form/show.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/index/index.phtml" afterPath="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/index/index.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/product-add-form/error.phtml" afterPath="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/product-add-form/error.phtml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -93,53 +73,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="services.config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/ZfDeals/config/services.config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Deal.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Mapper/Deal.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-138">
-              <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DealFieldset.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/DealFieldset.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DealAdd.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/DealAdd.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-              <folding>
-                <element signature="e#31#50#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DealAddFormController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/DealAddFormController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="-139">
+              <caret line="27" column="34" lean-forward="false" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
               <folding>
                 <element signature="e#38#87#0#PHP" expanded="true" />
               </folding>
@@ -147,24 +85,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/IndexController.php">
+      <file leaf-file-name="Deal.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Mapper/Deal.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-323">
-              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="644">
+              <caret line="42" column="38" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="38" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductAddFormController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/ProductAddFormController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-              <folding>
-                <element signature="e#39#88#0#PHP" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -173,29 +99,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>фзздшсфе</find>
-      <find>фзздшсфешщ</find>
-      <find>фзздшсфеш</find>
-      <find>a</find>
-      <find>ap</find>
-      <find>applica</find>
-      <find>applicatio</find>
-      <find>application</find>
-      <find>application.</find>
-      <find>application.i</find>
-      <find>application.in</find>
-      <find>application.ini</find>
-      <find>У</find>
-      <find>E</find>
-      <find>Er</find>
-      <find>Err</find>
-      <find>Error</find>
-      <find>ErrorC</find>
-      <find>ErrorCo</find>
-      <find>ErrorCon</find>
-      <find>ErrorCont</find>
-      <find>ErrorContr</find>
-      <find>ErrorContro</find>
       <find>ErrorControl</find>
       <find>ErrorControll</find>
       <find>ErrorController.</find>
@@ -203,6 +106,29 @@
       <find>ErrorController.ph</find>
       <find>ErrorController.php</find>
       <find>ErrorController</find>
+      <find>#</find>
+      <find>#dea</find>
+      <find>#deal</find>
+      <find>#dealI</find>
+      <find>#dealId</find>
+      <find>dealId</find>
+      <find>$dealId</find>
+      <find>n</find>
+      <find>nurn</find>
+      <find>nur</find>
+      <find>nur</find>
+      <find>nur n</find>
+      <find>nur no</find>
+      <find>nur noch</find>
+      <find>nur noc</find>
+      <find>S</find>
+      <find>Stuck</find>
+      <find>Stuc</find>
+      <find>Stu</find>
+      <find>St</find>
+      <find>v</find>
+      <find>ve</find>
+      <find>verf</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -211,50 +137,56 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/admin/add-product.phtml" />
-        <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/ProductAddFormController.phtml" />
-        <option value="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/product-add-form/add-product.phtml" />
-        <option value="$PROJECT_DIR$/module/ZfDeals/tests/bootstrap.php" />
-        <option value="$PROJECT_DIR$/config/autoload/db.local.php.dist" />
-        <option value="$PROJECT_DIR$/config/autoload/db.local.php" />
-        <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/ProductAdd.php" />
         <option value="$PROJECT_DIR$/module/ZfDeals/tests/ZfDealsTest/ControllerTest/AdminControllerTest.php" />
-        <option value="$PROJECT_DIR$/module/ZfDeals/tests/phpunit.xml" />
         <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/AdminController.php" />
         <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/DealAddFormControllerFactory.php" />
         <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/AdminControllerFactory.php" />
-        <option value="$PROJECT_DIR$/module/ZfDeals/config/services.config.php" />
         <option value="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/admin/admin.phtml" />
         <option value="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/admin/site.phtml" />
         <option value="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/deal-add-form/add-deal.phtml" />
         <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/ProductAddFormController.php" />
         <option value="$PROJECT_DIR$/module/ZfDeals/config/viewhelper.config.php" />
-        <option value="$PROJECT_DIR$/module/ZfDeals/Module.php" />
         <option value="$PROJECT_DIR$/config/application.config.php" />
         <option value="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/admin/index.phtml" />
-        <option value="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/index/index.phtml" />
-        <option value="$PROJECT_DIR$/module/ZfDeals/view/layout/site.phtml" />
-        <option value="$PROJECT_DIR$/module/ZfDeals/view/layout/admin.phtml" />
         <option value="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/product-add-form/process.phtml" />
-        <option value="$PROJECT_DIR$/module/ZfDeals/config/module.config.php" />
-        <option value="$PROJECT_DIR$/module/ZfDeals/config/controllers.config.php" />
         <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/View/Helper/RenderForm.php" />
         <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/AbstractFormController.php" />
         <option value="$PROJECT_DIR$/module/ZfDeals/tests/ZfDealsTest/FormTest/ProductAddTest.php" />
         <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Mapper/Product.php" />
-        <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/ProductSelectorFieldset.php" />
         <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Entity/Product.php" />
-        <option value="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/product-add-form/error.phtml" />
         <option value="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/product-add-form/show.phtml" />
-        <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/ProductFieldset.php" />
-        <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/DealAddFormController.php" />
-        <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/DealFieldset.php" />
-        <option value="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/deal-add-form/process.phtml" />
-        <option value="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/deal-add-form/show.phtml" />
-        <option value="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/deal-add-form/error.phtml" />
-        <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Entity/Deal.php" />
         <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/IndexController.php" />
         <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/DealAdd.php" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/DealFieldset.php" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Validator/DealActive.php" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/view/checkout-form/process.phtml" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/view/checkout-form/error.phtml" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/view/checkout-form/show.phtml" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/tests/phpunit.xml" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/OrderFieldset.php" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/OrderController.php" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/Service/Checkout.php" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/order/show-all.phtml" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/.php" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/Checkout.php" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/CheckoutFormController.php" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/config/module.config.php" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/view/layout/site.phtml" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/deal-add-form/error.phtml" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/deal-add-form/show.phtml" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/deal-add-form/process.phtml" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/Module.php" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/config/controllers.config.php" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/config/services.config.php" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Entity/Deal.php" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/index/index.phtml" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/view/layout/admin.phtml" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Entity/Order.php" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/ProductFieldset.php" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/ProductSelectorFieldset.php" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Mapper/Order.php" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/view/zf-deals/product-add-form/error.phtml" />
+        <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/DealAddFormController.php" />
         <option value="$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Mapper/Deal.php" />
       </list>
     </option>
@@ -269,9 +201,6 @@
     <servers>
       <server host="localhost" id="bfef823d-e2b4-4a06-8827-946d15940b8e" name="Nikita-PC(ZfDealsApplication)" port="8090" />
     </servers>
-  </component>
-  <component name="PhpTemplates">
-    <option name="NEW_PHP_FILE_LAST_EXTENSION" value="phtml" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP v5.6.30" />
   <component name="ProjectFrameBounds">
@@ -415,59 +344,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Form" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZfDealsApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZfDealsApplication" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZfDeals" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZfDeals" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZfDealsApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZfDealsApplication" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZfDeals" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -498,14 +375,17 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/RM-files/Sprint2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/RM-files/Sprint3" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\My Projects\ZfDealsApplication\module\ZfDeals\src\ZfDeals" />
+      <recent name="C:\My Projects\ZfDealsApplication\module\ZfDeals\view\zf-deals" />
       <recent name="C:\My Projects\ZfDealsApplication\module\ZfDeals\view\zf-deals\product-add-form" />
       <recent name="C:\My Projects\ZfDealsApplication\config\autoload" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\My Projects\ZfDealsApplication\module\ZfDeals\language" />
       <recent name="C:\My Projects\ZfDealsApplication\public\zf-deals\images" />
     </key>
   </component>
@@ -610,7 +490,7 @@
       <option name="presentableId" value="Default" />
       <updated>1497948376487</updated>
       <workItem from="1497948377623" duration="11671000" />
-      <workItem from="1497965281927" duration="78902000" />
+      <workItem from="1497965281927" duration="104995000" />
     </task>
     <task id="LOCAL-00001" summary="Clear project preparation">
       <created>1497954585716</created>
@@ -658,7 +538,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90573000" />
+    <option name="totallyTimeSpent" value="116666000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -667,7 +547,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -702,119 +582,377 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/ProductAdd.php">
+    <entry file="file://$PROJECT_DIR$/config/application.config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/Form/Element/Select.php">
+    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="312" column="0" lean-forward="false" selection-start-line="312" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/Mvc/DispatchListener.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/Http/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="426" column="0" lean-forward="false" selection-start-line="426" selection-start-column="0" selection-end-line="426" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/Mvc/Router/RouteMatch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/View/Model/ViewModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/Stdlib/ArrayUtils.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/Mvc/View/Http/CreateViewModelListener.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/Stdlib/CallbackHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/Mvc/MvcEvent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/Http/Response.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="269" column="0" lean-forward="false" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/Mvc/View/Http/RouteNotFoundStrategy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/EventManager/Event.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="206" column="0" lean-forward="false" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/EventManager/ResponseCollection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/Mvc/Controller/AbstractController.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <caret line="467" column="0" lean-forward="false" selection-start-line="467" selection-start-column="0" selection-end-line="467" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/tests/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/language/Zend_Validate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/view/zf-deals/checkout-form/show.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/config/controllers.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/config/module.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="34" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/config/services.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/config/viewhelper.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/AbstractFormController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding>
+            <element signature="e#37#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/ProductAddFormController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="38" column="53" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="e#39#88#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/OrderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding>
+            <element signature="e#37#86#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Entity/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Entity/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/Checkout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="32" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/DealAdd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="1" />
+          <folding>
+            <element signature="e#31#50#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/DealFieldset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="26" column="35" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/OrderFieldset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="95" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="117" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/ProductAdd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/ProductFieldset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="64" column="5" lean-forward="false" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/ProductSelectorFieldset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Mapper/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Mapper/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Service/Checkout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="79" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="94" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Validator/DealActive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/View/Helper/RenderForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Entity/Deal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="48" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="86" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/view/layout/admin.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="33" column="66" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/view/layout/site.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="71" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/view/zf-deals/admin/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/view/zf-deals/checkout-form/error.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/view/zf-deals/checkout-form/process.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/view/zf-deals/deal-add-form/error.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/view/zf-deals/deal-add-form/process.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/view/zf-deals/deal-add-form/show.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/view/zf-deals/index/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="6" />
+          <folding>
+            <element signature="e#6#965#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/view/zf-deals/order/show-all.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/view/zf-deals/product-add-form/error.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/view/zf-deals/product-add-form/process.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/Module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="71" column="23" lean-forward="true" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -827,299 +965,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/web.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZfDeals/view/layout/site.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZfDeals/config/viewhelper.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZfDeals/config/module.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZfDeals/view/zf-deals/product-add-form/error.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZfDeals/view/zf-deals/product-add-form/process.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="62" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZfDeals/view/zf-deals/product-add-form/show.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/View/Helper/RenderForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="12" column="63" lean-forward="true" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Mapper/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/ProductSelectorFieldset.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/ProductFieldset.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-668">
-          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/Form/Fieldset.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/Form/Form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/Form/Factory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/Form/FormElementManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="152" column="0" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/ServiceManager/AbstractPluginManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
+        <state relative-caret-position="368">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php">
+    <entry file="file://$PROJECT_DIR$/public/web.config">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="312" column="0" lean-forward="false" selection-start-line="312" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
+        <state relative-caret-position="391">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php">
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/CheckoutFormController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="206" column="0" lean-forward="false" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="592" column="0" lean-forward="false" selection-start-line="592" selection-start-column="0" selection-end-line="592" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Entity/Deal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/AbstractFormController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="598">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
-            <element signature="e#37#80#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZfDeals/view/zf-deals/admin/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZfDeals/view/zf-deals/deal-add-form/error.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZfDeals/view/zf-deals/deal-add-form/process.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZfDeals/view/zf-deals/deal-add-form/show.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="78" lean-forward="false" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZfDeals/Module.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-483">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZfDeals/config/controllers.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZfDeals/config/services.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Mapper/Deal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138">
-          <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/DealFieldset.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Form/DealAdd.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding>
-            <element signature="e#31#50#0#PHP" expanded="true" />
+            <element signature="e#37#67#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/DealAddFormController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="-139">
+          <caret line="27" column="34" lean-forward="false" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
           <folding>
             <element signature="e#38#87#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/IndexController.php">
+    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Mapper/Deal.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        <state relative-caret-position="644">
+          <caret line="42" column="38" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="38" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/ZfDeals/src/ZfDeals/Controller/ProductAddFormController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding>
-            <element signature="e#39#88#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

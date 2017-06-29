@@ -4,6 +4,17 @@ return array(
         'ZfDeals\Controller\Admin' => 'ZfDeals\Controller\AdminController',
     ),
     'factories' => array(
+        'ZfDeals\Controller\CheckoutForm' => function ($serviceLocator) {
+            $form = new \ZfDeals\Form\Checkout();
+            $ctr = new ZfDeals\Controller\CheckoutFormController($form);
+            $productMapper = $serviceLocator->getServiceLocator()->get('ZfDeals\Mapper\Product');
+            $ctr->setProductMapper($productMapper);
+            $validator = $serviceLocator->getServiceLocator()->get('ZfDeals\Validator\DealAvailable');
+            $ctr->setDealActiveValidator($validator);
+            $checkoutService = $serviceLocator->getServiceLocator()->get('ZfDeals\Service\Checkout');
+            $ctr->setCheckoutService($checkoutService);
+            return $ctr;
+        },
         'ZfDeals\Controller\DealAddForm' => function ($serviceLocator) {
             $form = new ZfDeals\Form\DealAdd();
             $ctr = new ZfDeals\Controller\DealAddFormController($form);
@@ -27,6 +38,11 @@ return array(
             $ctr->setDealMapper($dealMapper);
             $ctr->setProductMapper($productMapper);
             return $ctr;
-        }
-    )
+        },
+        'ZfDeals\Controller\Order' => function ($serviceLocator) {
+            $ctr = new ZfDeals\Controller\OrderController();
+            $ctr->setOrderMapper($serviceLocator->getServiceLocator()->get('ZfDeals\Mapper\Order'));
+            return $ctr;
+        },
+    ),
 );

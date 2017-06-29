@@ -20,23 +20,6 @@ class Deal
     {
         return $this->endDate;
     }
-
-    /**
-     * @param mixed $dealId
-     */
-    public function setDealId($dealId)
-    {
-        $this->dealId = $dealId;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getDealId()
-    {
-        return $this->dealId;
-    }
-
     /**
      * @param mixed $startDate
      */
@@ -83,6 +66,22 @@ class Deal
     public function getProduct()
     {
         return $this->product;
+    }
+
+    /**
+     * @param mixed $dealId
+     */
+    public function setDealId($dealId)
+    {
+        $this->dealId = $dealId;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDealId()
+    {
+        return $this->dealId;
     }
 
 }

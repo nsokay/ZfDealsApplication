@@ -9,7 +9,7 @@ class ProductSelectorFieldset extends Fieldset
     public function __construct()
     {
         parent::__construct('productSelector');
-        $this->setHydrator(new \Zend\Stdlib\Hydrator\Reflection());
+        $this->setHydrator(new\Zend\Stdlib\Hydrator\Reflection());
         $this->setObject(new \ZfDeals\Entity\Product());
 
         $this->add(

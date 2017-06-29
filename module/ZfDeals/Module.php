@@ -45,9 +45,11 @@ class Module
                 'ZfDeals\Controller\ProductAddFormController',
                 'ZfDeals\Controller\AdminController',
                 'ZfDeals\Controller\DealAddFormController',
+                'ZfDeals\Controller\OrderController',
             ),
             'site' => array(
                 'ZFDeals\Controller\IndexController',
+                'ZfDeals\Controller\CheckoutFormController',
             )
         );
 
@@ -74,5 +76,21 @@ class Module
             },
             100
         );
+    }
+
+    public function onBootstrap($e)
+    {
+        \Zend\Validator\AbstractValidator::setDefaultTranslator(
+            $e->getApplication()->getServiceManager()->get('translator')
+        );
+
+        $translator = $e->getApplication()->getServiceManager()->get('translator');
+        $translator
+            ->setLocale(\Locale::acceptFromHttp($_SERVER['HTTP_ACCEPT_LANGUAGE']))
+            ->setFallbackLocale('ru_RU');
+
+        $eventManager = $e->getApplication()->getEventManager();
+        $moduleRouteListener = new ModuleRouteListener();
+        $moduleRouteListener->attach($eventManager);
     }
 }

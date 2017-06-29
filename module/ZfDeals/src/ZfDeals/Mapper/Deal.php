@@ -1,9 +1,6 @@
 <?php
 namespace ZfDeals\Mapper;
 
-
-use Zend\Db\Adapter\AdapterInterface;
-use Zend\Db\ResultSet\ResultSetInterface;
 use ZfDeals\Entity\Deal as DealEntity;
 use Zend\Stdlib\Hydrator\HydratorInterface;
 use Zend\Db\TableGateway\TableGateway;
@@ -22,8 +19,7 @@ class Deal extends TableGateway
     {
         parent::__construct(
             $this->tableName,
-            $adapter,
-            new RowGatewayFeature($this->idCol)
+            $adapter
         );
 
         $this->entityPrototype = new DealEntity();
@@ -44,7 +40,7 @@ class Deal extends TableGateway
             ->where('startDate <= CAST(GETDATE() AS DATE)')
             ->where('endDate >= CAST(GETDATE() AS DATE)')
             ->where('stock > 0')
-            ->where('deal.dealId = ' . $id);
+            ->where('deal.id = ' . $id);
 
         $stmt = $sql->prepareStatementForSqlObject($select);
         $results = $stmt->execute();

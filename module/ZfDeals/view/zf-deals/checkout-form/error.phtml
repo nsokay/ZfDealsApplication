@@ -1,0 +1,5 @@
+<?php if ($this->insertError) { ?>
+    <div class="alert alert-error"><?php echo $this->translate('Заказ не размещен!') ?></div>
+<?php } ?>
+
+<?php echo $this->partial('zf-deals/checkout-form/show.phtml', array('form' => $this->form));

@@ -1,7 +1,9 @@
 <?php if ($this->insertError) { ?>
     <div class="alert alert-error">Акция не может быть добавлена.</div>
+    <li><a href="<?php echo $this->url('zf-deals\admin\deal\add') ?>">Вернуться к добавлению акции</a></li>
 <?php } ?>
 
 <?php if ($this->success) { ?>
     <div class="alert alert-success">Акция добавлена!</div>
+    <li><a href="<?php echo $this->url('zf-deals\admin\deal\add') ?>">Вернуться к добавлению акции</a></li>
 <?php } ?>

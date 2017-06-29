@@ -46,7 +46,7 @@ class DealFieldset extends Fieldset
                 'type' => 'Zend\Form\Element\Date',
                 'options' => array(
                     'label' => 'End Date :'
-                )
+                ),
             )
         );
     }
